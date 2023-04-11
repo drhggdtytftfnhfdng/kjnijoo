@@ -1,0 +1,116 @@
+@import 
+url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+ 
+body {
+ margin: 0;
+ padding: 0;
+ font-family: Roboto, sans-serif;
+ background-size: cover;
+ background-image: url(https://phonoteka.org/uploads/posts/2022-01/1643010435_1-phonoteka-org-p-luchshie-foni-dlya-stima-1.jpg)}
+
+ .dws-wrapper {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+.dws-wrapper{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+   }
+   .dws-form.active {
+    background:0; 
+    padding: 15px; 
+    width: 330px;
+   }
+.rab_1{
+    display: flex;
+    justify-content: space-around;
+}
+   .dws-form a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: #03bffd;
+   }
+   .dws-form a:hover {
+    color: #36d2ff;
+   }
+   .dws-form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   }
+   .dws-form input {
+    display: block;
+    width: 98%;
+   }
+   .dws-form.active{
+    background:b;
+   }
+   .tab-form.active{
+    background-color:rgba(255, 0, 221, 0.5);
+    padding: 30px 20px 20px;
+   }
+   label.tab {
+    outline:1px solid rgba(105, 2, 91, 0.596) ;
+    color: #00b7ff;
+    font-weight: 600;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 3px 3px 0 0  ;
+    margin-bottom: 1px;
+    cursor: pointer;
+   }
+   label.tab.active {
+    background: rgb(255, 0, 221);
+    color : #00b7ff;
+   }
+   label.tab{
+     border-radius: 0px 0px 0 0;
+     margin-bottom: 20px;
+     cursor: pointer;
+     }
+     
+     a.button{
+        background: #298cad;
+        color: #ffffff;
+        font-size: 18px;
+        text-transform: uppercase;
+        display: block;
+        text-align: center;
+        line-height: 46px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+       }
+       .social{
+        display: flex;
+        justify-content: space-around;
+        font-size: 24px;
+       }
+       .social a {
+        outline: 1px solid #00b7ff;
+        width: 40px;
+        height: 40px;
+        display: block;
+        line-height: 40px;
+        text-align: center;
+       }
+       .social + a {
+        margin-top: 10px;
+        display: block;
+        font-size: 12px;
+        text-align: center;
+       }
+   
+       .input{
+        font-size: 16px;
+        border: 2px solid #e9eaea;
+        padding: 12px 14px;
+        box-sizing: border-box;
+        margin-bottom: 22px;
+        color: #1e8da6;
+        outline: none;
+       }   
+ 
